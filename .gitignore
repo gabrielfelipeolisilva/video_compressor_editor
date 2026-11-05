@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# FFmpeg baixado localmente (pasta ao lado do script)
+ffmpeg/
+
+# Vídeos (entrada e saída) e temporários
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.log
+*.log.mbtree
+ffmpeg2pass-*
+
+# Configurações salvas
+.video_compressor_settings.json
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
